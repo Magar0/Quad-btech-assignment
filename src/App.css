@@ -1,0 +1,23 @@
+.show-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 50px;
+}
+
+.show-summary {
+    line-height: 1.3rem;
+    letter-spacing: 0.08rem;
+    word-spacing: 0.8rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-right: 15px;
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+
+.nav-link:hover,
+.active {
+    border-bottom: solid 5px orangered;
+}
