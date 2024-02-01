@@ -1,3 +1,4 @@
+/* home component */
 .show-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -10,6 +11,8 @@
     word-spacing: 0.8rem;
 }
 
+
+/* navbar  */
 .nav-link {
     font-weight: 500;
     margin-right: 15px;
@@ -20,4 +23,58 @@
 .nav-link:hover,
 .active {
     border-bottom: solid 5px orangered;
+}
+
+/* show page */
+.details ul {
+    li {
+        display: flex;
+        font-weight: 300;
+
+        p {
+            font-weight: 500;
+            margin-right: 5px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: darkblue;
+    padding: 8px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: rgb(23, 103, 130);
+    }
+
+}
+
+/* form details */
+.userForm {
+    label {
+        display: flex;
+        margin-bottom: 30px;
+
+        h3 {
+            margin-right: 20px;
+            font-size: 1.2rem;
+        }
+
+        input {
+            display: flex;
+            flex-grow: 1.5;
+        }
+    }
+}
+
+input {
+    padding: 5px 15px;
+    font-size: 1rem;
+    border: solid 1px #0000003e;
+    border-radius: 10px;
 }

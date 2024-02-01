@@ -19,9 +19,9 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <form action="" className=" w-1/3 flex justify-center items-center ">
-                    <input type="text" placeholder="Search..." className="w-4/5 border-slate-400" />
-                    <FaSearch className="search-icon" />
+                <form action="" className=" w-1/3 flex justify-center items-center relative ">
+                    <input type="text" placeholder="Search..." className="w-4/5 border-slate-400 ps-10" />
+                    <FaSearch className="search-icon absolute left-14 top-4" />
                 </form>
             </nav>
             <Outlet />
